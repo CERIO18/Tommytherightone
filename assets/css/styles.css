@@ -1,0 +1,39 @@
+.body {
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #333;
+    background-color: #94618e;
+    line-height: 1;
+    color: white;
+}
+
+.questions {
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #333;
+    background-color: #94618e;
+    line-height: 1;
+    color: white;
+}
+
+#startButton {
+    background-color: #800080;
+    font-family: "Didact Gothic", sans-serif;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.tommy {
+    color: red;
+}
