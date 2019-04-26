@@ -34,6 +34,21 @@
     border-radius: 12px;
 }
 
+#nextButton {
+    background-color: #800080;
+    font-family: "Didact Gothic", sans-serif;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
 .tommy {
-    color: red;
+    color: blue;
 }

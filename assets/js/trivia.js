@@ -10,32 +10,30 @@ $(document).ready(function () {
     var triviaGame;
     var questions = [{
             question: "What character does Chris Farley play in the movie Tommy Boy?",
-            answer: ["Tommy Callahan", "Michael Rinton", "Richard Hayden"],
-            correct: "1",
+            answer: ["Tommy Callahan", "Ray Zalinsky", "Richard Hayden"],
+            correct: "Tommy Callahan",
         },
 
         {
             question: "What is Tommy Boy's step mother's name?",
             answer: ["Tina Townsend", "Victoria Price", "Beverly Barish"],
-            correct: "3",
+            correct: "Beverly Barish",
         },
         {
             question: "What was likely Tommy's most said line in the movie?",
             answer: ["That's gonna leave a mark!", "Holy Snikes!", "Shut Up Richard!"],
-            correct: "2",
+            correct: "Holy Snikes!",
         },
         {
             question: "What City and State did the movie take place in?",
             answer: ["Sandusky, Ohio", "Denver, Colorado", "Portland, Oregon"],
-            correct: "1",
+            correct: "Sansusky, Ohio",
         }
     ]
 
-
     function startGame() {
-        $(".start-button").remove();
-        correctAnswers = 0;
-        incorrectAnswers = 0;
+        $("#startButton").remove();
+        console.log("startGameworks")
         loadQandA();
     }
 
@@ -46,6 +44,7 @@ $(document).ready(function () {
         if (answered === false) {
             timer();
         }
+        console.log(triviaGame)
         correct = triviaGame[indexQandA].correct;
         var question = triviaGame[indexQandA].question;
         $(".question").html(question);
@@ -68,7 +67,7 @@ $(document).ready(function () {
                     ".....HOWEVER THE ANSWER IS: " +
                     triviaGame[indexQandA].answer[correct]
                 );
-                image: "assets/images/baconPancakes.jpg"
+                gif: "assets/images/https://www.google.com/search?q=tommy+boy+surprised+you+didn%27t+know+that+gif&tbm=isch&source=iu&ictx=1&fir=dNL62d_DgA7QxM%253A%252CHg4sPqMQ32BPQM%252C_&usg=AI4_-kSApQxP5q5YbnWAxjnAu536E_GVQw&sa=X&ved=2ahUKEwjsts6Im6DgAhXl5oMKHQibBd4Q9QEwAHoECAYQBA#imgrc=dNL62d_DgA7QxM:"
                 incorrectAnswer();
             }
         });
@@ -109,8 +108,5 @@ $(document).ready(function () {
         resetRound();
     }
 
-    $(".startButton").on("click", function () {
-        $(".startButton");
-        startGame();
-    });
+    $("#startButton").on("click", startGame);
 })
