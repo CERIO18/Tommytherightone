@@ -1,45 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+<<html>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
-
-  <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
-
-  <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet" />
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/javascript" src="./assets/js/trivia.js"></script>
-</head>
-
-<title>Trivia Game</title>
-
-<body>
-  <div class="jumbotron">
-    <div class="container">
-        <div class="col text-center">
-      <h1 class="tommy">Tommy Boy Trivia!</h1>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Tommy Boy Trivia Game</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    </div>
-
-    <div class="col text-center">
-      <button class="btn btn-default" id="startButton">It's GO Time!</button>
-    </div>
-    <div class="tenor-gif-embed" data-postid="6218160" data-share-method="host" data-width="50%"
-      data-aspect-ratio="1.4285714285714286">
-      <a href="https://tenor.com/view/tommyboy-surprisedyoudidntknow-gif-6218160">Tommyboy Surprised GIF</a>
-      from <a href="https://tenor.com/search/tommyboy-gifs">Tommyboy GIFs</a>
-    </div>
-
-    <div class="col text-center">
-    <button class="btn btn-primary" id="nextButton">Next Question</button>
-    </div>
-    <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
-  </div>
-</body>
-
-</html>
-
+        <!-- link to favicon -->
+        <link rel="stylesheet" type="pic of tommy boy" href=".assets/css/images/TommyBoy.JPG"/>
+    
+        <!-- link to external css files and fonts -->
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:900" rel="stylesheet">
+    
+    </head>
+    
+    <body>
+    
+        <header><h1>Tommy Trivia<div id = "time-remaining">1:00</div></h1></header>
+    
+        <br><br><br><br><br><br><br><br><br>
+    
+        <button class="button" id="start-button">Start!</button>
+    
+        <br>
+        
+        <div class = "question">What character did Chris Farley play in the movie Tommy Boy?</div>
+    
+        <!-- inside each form, the value of the correct answer is set to "correct" -->
+        <form >
+            <input type="radio" name=1 class="choice" value="wrong"> Tommy Timmy
+            <input type="radio" name=1 class="choice" value="wrong"> Ray Zalinsky
+            <input type="radio" name=1 class="choice" value="correct"> Tommy Callahan
+            <input type="radio" name=1 class="choice" value="wrong"> Richard Hayden
+        </form>
+    
+        <br>
+    
+        <div class = "question">In the movie, what is his stepm mom's name?</div>
+    
+        <form >
+            <input type="radio" name=2 class="choice" value="wrong"> Sara Sododo
+            <input type="radio" name=2 class="choice" value="wrong"> Christina Chris
+            <input type="radio" name=2 class="choice" value="wrong"> Veronica Blanca
+            <input type="radio" name=2 class="choice" value="correct"> Beverly Barish
+        </form>
+    
+        <br>
+    
+        <div class = "question">What is his favorite saying in the movie</div>
+    
+        <form >
+            <input type="radio" name=3 class="choice" value="correct"> Holy Snikes!
+            <input type="radio" name=3 class="choice" value="wrong"> Shut Up Richard
+            <input type="radio" name=3 class="choice" value="wrong"> Hi, How are you?
+            <input type="radio" name=3 class="choice" value="wrong"> I knew it...
+        </form>
+    
+        <br>
+    
+        <div class = "question">What city and state did the movie take place in?</div>
+    
+        <form >
+            <input type="radio" name=4 class="choice" value="wrong"> Billings, Montana
+            <input type="radio" name=4 class="choice" value="wrong"> Ft. Lauderdale, Florida
+            <input type="radio" name=4 class="choice" value="wrong"> San Francisco, California
+            <input type="radio" name=4 class="choice" value="correct"> Sandusky, Ohio
+        </form>
+    
+        <br>
+    
+        <div class = "question">What industry did his dad work in?</div>
+    
+        <form >
+            <input type="radio" name=5 class="choice" value="wrong"> Food and Beverage
+            <input type="radio" name=5 class="choice" value="correct"> Auto
+            <input type="radio" name=5 class="choice" value="wrong"> Printing
+            <input type="radio" name=5 class="choice" value="wrong"> Oil and Gas
+        </form>
+        
+        <br>
+    
+        <div class = "question">What was the first name of his step brother?</div>
+    
+        <form >
+            <input type="radio" name=6 class="choice" value="wrong"> Saul
+            <input type="radio" name=6 class="choice" value="wrong"> Terry
+            <input type="radio" name=6 class="choice" value="correct"> Paul
+            <input type="radio" name=6 class="choice" value="wrong"> Anthony
+        </form>
+        
+        <br>
+    
+        <div class = "question">What was his best friend's name in the movie?</div>
+    
+        <form >
+            <input type="radio" name=7 class="choice" value="correct"> Richard Hayden
+            <input type="radio" name=7 class="choice" value="wrong"> Gilbert Globe
+            <input type="radio" name=7 class="choice" value="wrong"> Timothy Tuttle
+            <input type="radio" name=7 class="choice" value="wrong"> Jared Jenkins
+        </form>
+        
+        <br>
+    
+        <!-- buttons for completing the quiz and restarting the game, linked to the javascript for functionality -->
+        <button class="button" id = "done-button">Done!</button>
+        <button id = "restart-button">Let's Do This Again!</button>
+    
+        <!-- link to external javaScript file -->
+        <script type="text/javascript" src = "assets/javascript/app.js"></script>
+    
+        <!-- link to external javaScript file -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    </body>
+    
+    </html>
