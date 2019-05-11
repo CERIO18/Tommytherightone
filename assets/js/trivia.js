@@ -33,7 +33,7 @@ $(document).ready(function () {
 
     function startGame() {
         $("#startButton").remove();
-        console.log("startGameworks")
+        console.log("Game works")
         loadQandA();
     }
 
@@ -45,6 +45,7 @@ $(document).ready(function () {
             timer();
         }
         console.log(triviaGame)
+        
         correct = triviaGame[indexQandA].correct;
         var question = triviaGame[indexQandA].question;
         $(".question").html(question);
