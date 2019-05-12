@@ -1,18 +1,18 @@
 body {
     text-align: center;
     margin: auto;
-    background-image: linear-gradient(rgb(80, 10, 68), white, white);
-    background-size: auto;
+    background-image: url("../images/TommyBoy.JPG");
+    background-size: 100% auto;
 }
+
 header {
     letter-spacing: 4px;
     color: rgb(79, 6, 88);
-    /* text-shadow: nifty new css trick */
     text-shadow: 3px 3px 3px black;
     position: fixed;
     top: 0px;
     font-family: 'Capriola', sans-serif;
-    font-size: 40px;
+    font-size: 35px;
    
     border-radius: 15px;
     width: 100%;
@@ -24,12 +24,15 @@ header {
 .question {
     margin: auto;
     width: 90%;
-    font-size: 18px;
+    font-family: 'Capriola', sans-serif;
+    font-size: 24px;
     font-weight: bold;
+    color: rgb(12, 12, 12);
 }
 h1 {
     padding: 0px;
     margin: 10px;
+    font-family: 'Capriola', sans-serif;
 }
 .button {
     letter-spacing: 2px;
@@ -67,5 +70,8 @@ form {
     margin: auto;
     margin-top: 10px;
     margin-bottom: 30px;
-    width: 90%;
+    width: 100%;
+    font-family: 'Capriola', sans-serif;
+    color: rgb(39, 16, 172);
+    font-size: 20px;
 }
