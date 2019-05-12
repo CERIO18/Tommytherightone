@@ -7,8 +7,8 @@ body {
 
 header {
     letter-spacing: 4px;
-    color: rgb(79, 6, 88);
-    text-shadow: 3px 3px 3px black;
+    text-shadow: rgb(58, 11, 65);
+    color: 5px 5px 5px rgba(105, 102, 102, 0.363);
     position: fixed;
     top: 0px;
     font-family: 'Fredoka One', cursive;
@@ -33,6 +33,9 @@ h1 {
     padding: 0px;
     margin: 10px;
     font-family: 'Fredoka One', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(62, 9, 92);
     
 }
 .button {
@@ -55,6 +58,8 @@ h1 {
 #start-button {
     margin: 0px 0px 40px 0px;
     color: rgb(94, 11, 150);
+    text-shadow: 2px 2px 2px black;
+    font-size: 30px;
     
 }
 #restart-button {
