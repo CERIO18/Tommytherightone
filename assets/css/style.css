@@ -2,7 +2,7 @@ body {
     text-align: center;
     margin: auto;
     background-image: url("../images/TommyBoy.JPG");
-    background-size: 100% auto;
+    background-size: 25% auto;
 }
 
 header {
@@ -11,34 +11,35 @@ header {
     text-shadow: 3px 3px 3px black;
     position: fixed;
     top: 0px;
-    font-family: 'Capriola', sans-serif;
+    font-family: 'Fredoka One', cursive;
     font-size: 35px;
-   
     border-radius: 15px;
     width: 100%;
 }
 #time-remaining {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 50px;
+    font-family: 'Fredoka One', cursive;
 }
 .question {
     margin: auto;
-    width: 90%;
-    font-family: 'Capriola', sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    color: rgb(12, 12, 12);
+    width: 100%;
+    font-family: 'Fredoka One', cursive;
+    font-size: 33px;
+    font-weight: regular;
+    color: rgb(62, 9, 92);
 }
 h1 {
     padding: 0px;
     margin: 10px;
-    font-family: 'Capriola', sans-serif;
+    font-family: 'Fredoka One', cursive;
+    
 }
 .button {
     letter-spacing: 2px;
-    font-family: 'Capriola', sans-serif;
+    font-family: 'Fredoka One', cursive;
     color: rgb(12, 12, 12);
-    font-size: 30px;
+    font-size: 28px;
     padding: 5px 15px 5px 15px;
     border-radius: 6px;
     border-bottom: grey solid 2px;
@@ -49,6 +50,7 @@ h1 {
     color: rgb(94, 11, 150);
     text-shadow: 2px 2px 2px black;
     font-size: 30px;
+    font-family: 'Fredoka One', cursive;
 }
 #start-button {
     margin: 0px 0px 40px 0px;
@@ -57,7 +59,7 @@ h1 {
 }
 #restart-button {
     letter-spacing: 2px;
-    font-family: 'Capriola', sans-serif;
+    font-family: 'Fredoka One', cursive;
     color: rgb(94, 11, 150);
     text-shadow: 2px 2px 2px black;
     font-size: 30px;
@@ -71,7 +73,7 @@ form {
     margin-top: 10px;
     margin-bottom: 30px;
     width: 100%;
-    font-family: 'Capriola', sans-serif;
-    color: rgb(39, 16, 172);
-    font-size: 20px;
+    font-family: 'Fredoka One', cursive;
+    color: rgb(15, 15, 15);
+    font-size: 30px;
 }
